@@ -5,4 +5,4 @@ metadata:
   namespace: forumapp1
 spec:
   type: GitHub
-  pathname: https://github.com/utherp0/acmforumapp/acm/application
+  pathname: https://github.com/utherp0/acmforumapp
