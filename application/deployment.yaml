@@ -5,7 +5,6 @@ metadata:
     app: app1
     version: v1
     app.kubernetes.io/part-of: app1-application
-    app.openshift.io/runtime: nodejs
   name: forumapp1
 spec:
   replicas: 2

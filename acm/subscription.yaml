@@ -8,7 +8,7 @@ metadata:
   annotations:
     apps.open-cluster-management.io/github-path: application
 spec:
-  channel: forumapp1channel
+  channel: forumapp1/forumapp1channel
   placement:
     placementRef:
       kind: PlacementRule
