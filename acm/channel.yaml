@@ -1,0 +1,8 @@
+apiVersion: apps.open-cluster-management.io/v1
+kind: Channel
+metadata:
+  name: forumapp1channel
+  namespace: forumapp1
+spec:
+  type: GitHub
+  pathname: https://github.com/utherp0/acmforumapp
