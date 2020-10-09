@@ -20,7 +20,7 @@ spec:
     spec:
       containers:
       - env:
-        image: quay.io/marrober/layers:latest
+        image: quay.io/ilawson/forum2020httpd:latest
         imagePullPolicy: Always
         name: app1
         ports:
