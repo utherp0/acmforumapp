@@ -4,9 +4,9 @@ metadata:
   name: forumapp1placement
   namespace: forumapp1
 spec:
-  clusterConditions:
-    - type: ManagedClusterConditionAvailable
-      status: "True"
+#  clusterConditions:
+#    - type: ManagedClusterConditionAvailable
+#      status: "True"
   clusterSelector:
     matchLabels:
       type: app

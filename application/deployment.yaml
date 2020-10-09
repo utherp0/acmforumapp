@@ -20,7 +20,7 @@ spec:
     spec:
       containers:
       - env:
-        image: quay.io/ilawson/devex4:latest
+        image: quay.io/marrober/layers:latest
         imagePullPolicy: Always
         name: app1
         ports:
