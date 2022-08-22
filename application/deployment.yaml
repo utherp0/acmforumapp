@@ -19,8 +19,7 @@ spec:
         version: v1
     spec:
       containers:
-      - env:
-        image: quay.io/ilawson/forum2020httpd:latest
+      - image: quay.io/ilawson/forum2020httpd:latest
         imagePullPolicy: Always
         name: app1
         ports:
